@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/foto-background-novo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Comfortaa', cursive;
+}
+div{
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.form__dados{
+    margin: 10px auto;
+    width: 500px;
+    height: 400px;
+}
+
+h1{
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: center;
+    color: rgb(255, 208, 52);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-size: 50px;
+    padding: 10px 20px;
+ }
+h2{
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: center;
+    color: rgb(255, 208, 52);
+    font-size: 20px;
+}
+ p{
+    margin: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    color: rgb(255, 248, 149);
+}
+
+label{
+    font-size: 15px;
+}
+
+legend{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: rgb(253, 208, 60);
+    display: block;
+}
+fieldset{
+    border: none;
+}
+.botao__centro{
+    text-align: center;
+}
+button{
+    margin: 50px 30px 15px;
+    
+}
+.botao__enviar{
+    padding: 10px 15px;
+    background-color: rgb(128, 158, 175);
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(169, 236, 214);
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
+    border-spacing: 10px;
+    padding: 20px 20px;
+    transition: .5s;
+}
+.botao__enviar:hover{
+    background-color: aquamarine;
+    color: rgb(82, 57, 250);
+    cursor: pointer;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+    text-align: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}
+#ponto_turismo{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}
+#provider{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}
+#stay{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}
+#country{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}
+#state{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}
+#city{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}
+#district{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}
+#cnpj{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}
+#activity7{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+}

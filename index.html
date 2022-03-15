@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Projeto Gulliver Traveller - Cadastramento</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Gulliver Traveller</h1>
+    <h2>O melhor site de viagem do Brasil</h2>
+
+    <div class="botao__centro">
+        <p>
+            Bem-vindo ao Gulliver Traveller, seu novo guia de viagens! Aqui você pode descobrir e/ou conferir
+            vários pontos turísticos, destinos para viagem, suas curiosidades, culturas, o que fazer nos locais
+            e muito mais. Não só isso mas se você for um provedor de seriços turísticos, você pode também cadastrar
+            locais/pontos turísticos e suas respectivas atiidades! Aproveite!</p>
+    </div>
+    
+
+    <h2>Cadastre seus dados</h2>
+
+    <div>
+        <form action="Turismo" method="post" id="dados_turismo" name="dados_turismo" >
+            <fieldset>
+                <legend></legend>
+                <p>
+                <label for="ponto_turismo">Ponto Turístico: </label><br>
+                <input type="text" id="ponto_turismo" placeholder="Ex: Parque 1234" autofocus required>
+            </p>
+
+            <p>
+                <label for="provider">Prestador: </label><br>
+                <input type="text" id="provider" required>
+            </p>
+            
+            <p>
+                <label for="stay">Estadia: </label><br>
+                <input type="text" id="stay" required>
+            </p>
+
+            <p>
+                <label for="country">País: </label><br>
+                <input type="text" id="country" placeholder="Ex: Brasil, Mexico, Japão" required>
+            </p>
+
+            <p>
+                <label for="state">Estado: </label><br>
+                <input type="text" id="state" placeholder="Ex: São Paulo, Nova York" required>
+            </p>
+            
+            <p>
+                <label for="city">Cidade: </label><br>
+                <input type="text" id="city" placeholder="Ex: Rio de Janeiro, Las Vegas" required>
+            </p>
+            
+            <p>
+                <label for="">Selecione a UF: </label><br>
+                <input list="lista_uf" id="uf_list" required>
+                <datalist id="lista_uf">
+                    <option value="SP"></option>
+                    <option value="RJ"></option>
+                    <option value="MG"></option>
+                    <option value="BA"></option>
+                    <option value="RS"></option>
+                    <option value="RN"></option>
+                    <option value="AM"></option>
+                    <option value="AC"></option>
+                    <option value="MS"></option>
+                    <option value="SC"></option>
+                </datalist>
+            </p>
+            
+            <p>
+                <label for="district">Bairro: </label><br>
+                <input type="text" id="district" placeholder="Ex: Vila Fachini" required>
+            </p>
+
+            <p>
+                <label for="cnpj">CNPJ: </label><br>
+                <input type="number" id="cnpj" placeholder="Ex: XX. XXX. XXX/0001-XX" required>
+            </p>
+            
+            <p>
+                <label for="">Período de Funcionamento: </label><br>
+                
+                <input type="radio" name="working_time" id="working_time1" checked> 
+                <label for="working_time1">Manhã </label><br>
+                
+                <input type="radio" name="working_time" id="working_time2"> 
+                <label for="working_time2">Tarde </label><br>
+                
+                <input type="radio" name="working_time" id="working_time3"> 
+                <label for="working_time3">Noite </label><br>
+
+                <input type="radio" name="working_time" id="working_time4"> 
+                <label for="working_time4">Manhã/Tarde </label><br>
+
+                <input type="radio" name="working_time" id="working_time5"> 
+                <label for="working_time5">Manhã/Noite </label><br>
+
+                <input type="radio" name="working_time" id="working_time6"> 
+                <label for="working_time6">Tarde/Noite </label><br>
+
+                <input type="radio" name="working_time" id="working_time7"> 
+                <label for="working_time7">Todos </label><br>
+            </p>
+            
+            <p>
+                <label for="hour">Horário de Abertura: </label>
+                <input type="time" id="hour" required>
+            </p>
+
+            <p>
+                <label for="hour">Horário de Fechamento: </label>
+                <input type="time" id="hour" required>
+            </p>
+            
+            <p>
+                <label for="">Tipos de Atividades: </label> <br>
+                
+                <input type="checkbox" name="" id="activity1">
+                <label for="activity1">Cultural </label><br>
+                
+                <input type="checkbox" name="" id="activity2">
+                <label for="activity2">Culinária </label><br>
+                
+                <input type="checkbox" name="" id="activity3">
+                <label for="activity3">Festiva </label><br>
+
+                <input type="checkbox" name="" id="activity4">
+                <label for="activity4">Histórico </label><br>
+                
+                <input type="checkbox" name="" id="activity5">
+                <label for="activity5">Social </label><br>
+
+                <input type="checkbox" name="" id="activity6">
+                <label for="activity6">Outros </label><br>
+                <input type="text" id="activity7" placeholder="Informe as atividades">
+            </p>
+            
+            <p>
+                <label for="pics">Enviar Foto(s) do Local</label><br>
+                <input type="file" id="pics">
+            </p>
+
+            <p>
+                <label for="info">Fale mais sobre o local: </label> <br>
+                <textarea name="" id="Info" ></textarea>
+            </p>
+            
+            <div class="botao__centro">
+                <p>
+                    <!-- <button type="submit" class="botao__enviar">Enviar Dados</button> -->
+                    <a href="cadastrado.html">
+                        <input class="botao__enviar" type="button" value="Enviar Dados">
+                    </a>
+                    <button type="reset" class="botao__enviar">Limpar Dados</button>
+                </p>
+            </div>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
